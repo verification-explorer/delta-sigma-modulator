@@ -1,0 +1,3 @@
+xrun -clean -rnm_tech -input probes.tcl -nowarn NSVCER -nowarn SAWSTP \
+ -linedebug -status -timescale 1ns/1ps -access rw  -top top \
+ -y ../EEnet -y ../src  +libext+.sv  top.sv  $* &
